@@ -5,15 +5,16 @@ const baseUri = "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 1,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Body" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Earrings" },
+      { name: "Hair" },
+      { name: "Necklaces" },
+      { name: "Shirts" },
     ],
   },
 ];
